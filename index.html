@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press the Button Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Press the Button Game</h1>
+        <p>Do you dare to press the red button?</p>
+        <div id="choices">
+            <button class="choice-btn" onclick="pressButton(1)">Press it!</button>
+            <button class="choice-btn" onclick="pressButton(2)">Don't press it!</button>
+            <button class="choice-btn" onclick="pressButton(3)">Maybe press it?</button>
+            <button class="choice-btn" onclick="pressButton(4)">Press it twice!</button>
+            <button class="choice-btn" onclick="pressButton(5)">Never press it!</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
